@@ -30,7 +30,7 @@ const Import: React.FC = () => {
     try {
       // await api.post('/transactions/import', data);
     } catch (err) {
-      // console.log(err.response.error);
+      console.log(err.response.error);
     }
   }
 
